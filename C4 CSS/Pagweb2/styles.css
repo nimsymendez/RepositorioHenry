@@ -1,0 +1,49 @@
+body {
+    font-family: 'arial', sans-serif;
+    background-color: rgb(117, 140, 240);
+    color: black;
+    margin: 20px;
+}
+.perfil {
+    width: 110px;
+    padding: 1em;
+}
+.title {
+    font-size: 2.5em;
+    color: rgb(161, 0, 113);
+    margin: auto;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+}
+#fotoperfil{
+    width: fit-content;
+    margin: auto;
+}
+#titulo{
+    width: fit-content;
+    margin: auto;
+}
+.cards {
+    
+    width: fit-content;
+    padding: 1em;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+.cards:hover {
+    background-color: rgb(226, 104, 155);
+}
+#cards-container{
+    width: 60vw;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}

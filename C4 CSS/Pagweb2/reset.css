@@ -1,0 +1,38 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%; /* Establece el tamaño de fuente base */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Establece una fuente base */
+}
+
+h1, h2, h3, h4, h5, h6, p {
+   margin: 0;
+   padding: 0;
+}
+
+ul, ol {
+    list-style: none; /* Elimina los estilos de las listas */
+}
+
+a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: inherit; /* Hereda el color del texto */
+}
+
+img {
+    max-width: 100%; /* Asegura que las imágenes no excedan su contenedor */
+    height: auto; /* Mantiene la proporción de las imágenes */
+}
+
+
+/* Otros elementos según sea necesario */
